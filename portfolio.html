@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-nav">
+            <nav class="main-site-nav">
+                <a href="./index.html" class="link logo"><span class="logo-part">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="site-nav-item"><a href="./index.html" class="site-nav-link">Студия</a></li>
+                    <li class="site-nav-item"><a href="./portfolio.html" class="site-nav-link current">Портфолио</a>
+                    </li>
+                    <li class="site-nav-item"><a href="" class="site-nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts-nav list">
+
+                <li class="contacts-nav-item">
+                    <a href="mailto:info@devstudio.com" class="link contacts-nav-link">
+                    <svg class="contacts-icon envelope-icon" width="16" height="12">
+                        <use href="./images/symbol-defs.svg#icon-envelope"></use> 
+                    </svg>                                  
+                       info@devstudio.com</a>
+                </li>
+
+
+                <li class="contacts-nav-item">
+                    <a href="tel:+380961111111" class="link contacts-nav-link">
+                    <svg class="contacts-icon smartphone-icon" width="10" height="16">
+                        <use href="./images/symbol-defs.svg#icon-smartphone"></use> 
+                    </svg>               
+                       +38 096 111 11 11</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="visually-hidden">Портфолио</h1>
+                <!--Кнопки фильтра-->
+                <ul class="filter list">
+                    <li class="filter-li"><button type="button" class="filter-item">Все</button></li>
+                    <li class="filter-li"><button type="button" class="filter-item">Веб-сайты</button></li>
+                    <li class="filter-li"><button type="button" class="filter-item">Приложения</button></li>
+                    <li class="filter-li"><button type="button" class="filter-item">Дизайн</button></li>
+                    <li class="filter-li"><button type="button" class="filter-item">Маркетинг</button></li>
+                </ul>
+
+                <!--Портфолио-->
+
+                <ul class="examples list">
+                    
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/texnokrjak.jpg" alt="Ноутбук"
+                                width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                </div>                        
+                             </div>
+                            <div class="card-content">
+                                <h2 class="example">Технокряк</h2>
+                                <p class="card-text">Веб-сайт</p>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+                    
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/sport-star.jpg" alt="баскетболисты" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa incidunt dolor placeat totam reprehenderit. Est nostrum exercitationem quas possimus magnam repudiandae quaerat. Quasi, ducimus.</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Постер New Orlean vs Golden Star</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/seafood.jpg" alt="постер ресторана" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, enim!</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Ресторан Seafood</h2>
+                                <p class="card-text">Приложение</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/prime.jpg" alt="наушники" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque natus vel corporis similique libero nostrum esse aliquam, delectus amet quo eius dolorum!</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Проект Prime</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb"> 
+                                <img src="./images/portfolio/boxes.jpg" alt="две коробки" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum impedit molestias saepe hic!</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Проект Boxes</h2>
+                                <p class="card-text">Приложение</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/inspiration.jpg" alt="монитор" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil recusandae, distinctio quia quibusdam eius hic ducimus. Magni vel ab recusandae autem aliquam accusantium dicta quaerat?</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Inspiration has no Borders</h2>
+                                <p class="card-text">Веб-сайт</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/limited-addition.jpg" alt="книга" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit, porro veritatis voluptates quia expedita? Odit, dicta voluptate. Facere accusamus repudiandae neque! Dolorum, amet cum?</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Издание Limited Edition</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb"> 
+                                <img src="./images/portfolio/lab.jpg" alt="етикетка" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos obcaecati architecto molestiae temporibus quos quaerat? </p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Проект LAB</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li class="examples-item">
+                        <a href="" class="link portfolio-link">
+                        <div class="card">
+                            <div class="card-thumb">
+                                <img src="./images/portfolio/bussines.jpg" alt="человек за ноубуком" width="370">
+                                <div class="overlay-card">
+                                <p class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam laudantium ad placeat maiores quisquam nemo sapiente recusandae.</p>
+                                </div>  
+                            </div>
+                            <div class="card-content">
+                                <h2 class="example">Growing Business</h2>
+                                <p class="card-text">Приложение</p>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <div class="first-footer-block">
+            <a href="./index.html" class="footer-logo link"><span class="logo-part">Web</span>Studio</a>
+            <address>
+                <p class=address>г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="contact list">
+                    <li><a href="mailto:info@devstudio.com" class="link footer-link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link footer-link">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+            </div>
+
+
+            <div class="second-footer-block">
+            <h2 class="footer-title">Присоединяйтесь</h2>
+            <ul class="socials-footer-list list">
+                <li class="social-footer-item">
+                    <a href="" class="social-footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-footer-icon" width="20px"  height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+                </li>
+                <li class="social-footer-item">
+                    <a href="" class="social-footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-footer-icon" width="20px"  height="20px">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+                </li>
+                <li class="social-footer-item">
+                    <a href="" class="social-footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-footer-icon" width="20px"  height="20px">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+                </li>
+                <li class="social-footer-item">
+                    <a href="" class="social-footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-footer-icon" width="20px"  height="20px">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                </li>
+             </ul>   
+            </div>           
+        </div>
+    </footer>
+</body>
+
+</html>
